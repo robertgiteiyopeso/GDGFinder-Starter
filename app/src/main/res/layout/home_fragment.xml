@@ -49,6 +49,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:textSize="24sp"
+                android:textColor="#FF555555"
                 android:text="@string/about_google_developer_groups"
                 app:layout_constraintEnd_toStartOf="@+id/end_guideline"
                 app:layout_constraintStart_toStartOf="@+id/start_guideline"
@@ -61,6 +63,7 @@
                 android:layout_marginTop="8dp"
                 android:text="@string/gdg_description_long"
                 app:layout_constraintEnd_toStartOf="@+id/end_guideline"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="@+id/start_guideline"
                 app:layout_constraintTop_toBottomOf="@id/title" />
 
@@ -69,6 +72,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
+                android:textSize="18sp"
+                android:textColor="#555555"
                 android:text="@string/gdgs_are"
                 app:layout_constraintEnd_toStartOf="@id/end_guideline"
                 app:layout_constraintStart_toEndOf="@id/start_guideline"
